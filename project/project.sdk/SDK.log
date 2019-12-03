@@ -4,3 +4,9 @@
 12:35:24 INFO  : Successfully done setting XSCT server connection channel  
 12:35:24 INFO  : Successfully done setting SDK workspace  
 12:35:24 INFO  : Processing command line option -hwspec /home/user/my_projects/project/project/project.sdk/design_1_wrapper.hdf.
+17:38:32 INFO  : Registering command handlers for SDK TCF services
+17:38:33 INFO  : Launching XSCT server: xsct -n -interactive /home/user/ps/embedded_systems_project/project/project.sdk/temp_xsdb_launch_script.tcl
+17:38:35 INFO  : XSCT server has started successfully.
+17:38:35 INFO  : Successfully done setting XSCT server connection channel  
+17:38:35 INFO  : Successfully done setting SDK workspace  
+17:38:35 INFO  : Processing command line option -hwspec /home/user/ps/embedded_systems_project/project/project.sdk/design_1_wrapper.hdf.
