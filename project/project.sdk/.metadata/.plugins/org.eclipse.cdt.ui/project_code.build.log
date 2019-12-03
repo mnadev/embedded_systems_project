@@ -1,0 +1,25 @@
+12:45:28 **** Auto Build of configuration Debug for project project_code ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../project_code_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:104:28: error: 'INTCInst' undeclared (first use in this function); did you mean 'BTNInst'?
+  status = XScuGic_Connect(&INTCInst,
+                            ^~~~~~~~
+                            BTNInst
+../src/main.c:104:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:105:9: error: 'INTC_GPIO_INTERRUPT_ID' undeclared (first use in this function); did you mean 'XST_NOT_INTERRUPT'?
+         INTC_GPIO_INTERRUPT_ID,
+         ^~~~~~~~~~~~~~~~~~~~~~
+         XST_NOT_INTERRUPT
+../src/main.c:107:17: error: 'GpioInstancePtr' undeclared (first use in this function)
+         (void *)GpioInstancePtr);
+                 ^~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+
+12:45:28 Build Finished (took 318ms)
+
