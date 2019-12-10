@@ -1,0 +1,3908 @@
+11:33:55 **** Build of project thermostat_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodOLED...
+OledDriver.c: In function 'OLED_Update':
+OledDriver.c:532:14: warning: unused variable 'icol' [-Wunused-variable]
+     int      icol;
+              ^~~~
+OledGrph.c: In function 'OLED_GetStdPattern':
+OledGrph.c:196:23: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     return rgbFillPat + 8*ipat;
+            ~~~~~~~~~~~^~~~~~~~
+OledGrph.c: In function 'OLED_FillRect':
+OledGrph.c:506:9: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8  bTmp;
+         ^~~~
+OledGrph.c: In function 'OLED_GetBmp':
+OledGrph.c:612:11: warning: variable 'bTmp' set but not used [-Wunused-but-set-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c: In function 'OLED_PutBmp':
+OledGrph.c:713:11: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c:706:11: warning: unused variable 'bDsp' [-Wunused-variable]
+     u8    bDsp;
+           ^~~~
+OledGrph.c: In function 'OLED_DrawChar':
+OledGrph.c:812:11: warning: unused variable 'ib' [-Wunused-variable]
+     int   ib;
+           ^~
+OledGrph.c:811:11: warning: variable 'pbBmp' set but not used [-Wunused-but-set-variable]
+     u8   *pbBmp;
+           ^~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodTMP3...
+In file included from xiic.h:324:0,
+                 from PmodTMP3.h:29,
+                 from PmodTMP3.c:26:
+PmodTMP3.c: In function 'TMP3_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodTMP3.c:115:4: note: in expansion of macro 'XIic_IntrGlobalDisable'
+    XIic_IntrGlobalDisable(IicInstancePtr);
+    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodTMP3.h:29,
+                 from PmodTMP3.c:26:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodBT2...
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodRTCC...
+In file included from xiic.h:324:0,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+PmodRTCC.c: In function 'RTCC_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodRTCC.c:97:4: note: in expansion of macro 'XIic_IntrGlobalDisable'
+    XIic_IntrGlobalDisable(IicInstancePtr);
+    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project thermostat ****
+
+Nothing to build for project thermostat
+11:34:09 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: thermostat.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermostat_bsp/ps7_cortexa9_0/lib -o "thermostat.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../thermostat_bsp/ps7_cortexa9_0/lib/libxil.a(xil-crt0.o): In function `_start':
+/home/user/Documents/embedded_systems_project/thermostat/thermostat.sdk/thermostat_bsp/ps7_cortexa9_0/libsrc/standalone_v6_7/src/xil-crt0.S:142: undefined reference to `main'
+makefile:39: recipe for target 'thermostat.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [thermostat.elf] Error 1
+11:34:13 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:49:10: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:34:24 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:49:10: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:34:30 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:123:1: error: unknown type name 'PmodBLE'; did you mean 'PmodBT2'?
+ PmodBLE ble;
+ ^~~~~~~
+ PmodBT2
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:139:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:136:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:157:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'SetTime':
+../src/main.c:303:21: error: 'myDevice' undeclared (first use in this function)
+       RTCC_setYear(&myDevice, val.year);
+                     ^~~~~~~~
+../src/main.c:303:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:429:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:157:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:459:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:154:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:608:30: error: 'myDevice' undeclared (first use in this function)
+          if (RTCC_checkFlag(&myDevice, RTCC_TARGET_ALM0)) {
+                              ^~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:636:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:645:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:400:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:131:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:35:06 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:123:1: error: unknown type name 'PmodBLE'; did you mean 'PmodBT2'?
+ PmodBLE ble;
+ ^~~~~~~
+ PmodBT2
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:139:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:136:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:157:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'SetTime':
+../src/main.c:303:21: error: 'myDevice' undeclared (first use in this function)
+       RTCC_setYear(&myDevice, val.year);
+                     ^~~~~~~~
+../src/main.c:303:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:429:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:157:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:459:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:154:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:608:30: error: 'myDevice' undeclared (first use in this function)
+          if (RTCC_checkFlag(&myDevice, RTCC_TARGET_ALM0)) {
+                              ^~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:636:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:645:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:400:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:131:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:35:34 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:123:1: error: unknown type name 'PmodBLE'; did you mean 'PmodBT2'?
+ PmodBLE ble;
+ ^~~~~~~
+ PmodBT2
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:139:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:136:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:157:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'SetTime':
+../src/main.c:303:21: error: 'myDevice' undeclared (first use in this function)
+       RTCC_setYear(&myDevice, val.year);
+                     ^~~~~~~~
+../src/main.c:303:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c: At top level:
+../src/main.c:429:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:157:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:459:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:154:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:636:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:645:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:400:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:131:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:35:44 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:123:1: error: unknown type name 'PmodBLE'; did you mean 'PmodBT2'?
+ PmodBLE ble;
+ ^~~~~~~
+ PmodBT2
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:139:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:136:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:157:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:429:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:157:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:459:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:154:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:636:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:645:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:400:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:131:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:35:57 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:139:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:136:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:157:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:429:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:157:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:459:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:154:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:636:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:645:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:400:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:131:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:36:07 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:138:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:135:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:156:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:428:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:156:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:458:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:153:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:635:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:644:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:399:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:130:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:38:05 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:138:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:135:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:157:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:429:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:157:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:459:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:154:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:636:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:645:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:400:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:130:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:39:07 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:138:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:135:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:157:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:432:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:157:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:462:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:154:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:639:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:648:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:403:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:130:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:39:33 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:139:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:136:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:158:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:433:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:158:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:463:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:155:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:640:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:649:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:404:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:131:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:39:46 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:141:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:138:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:160:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:435:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:160:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:465:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:157:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:642:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:651:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:406:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:133:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:40:09 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:143:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:140:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:162:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:437:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:162:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:467:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:159:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:644:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:653:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:408:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:135:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:40:24 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:142:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:139:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:161:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:436:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:161:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:466:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:158:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:643:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:652:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:407:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:134:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:40:29 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:145:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:142:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:164:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:439:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:164:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:469:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:161:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:646:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:655:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:410:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:137:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:40:46 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:147:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:144:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:166:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:441:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:166:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:471:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:163:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:648:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:657:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:412:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:139:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:41:04 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:168:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:443:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:168:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:473:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:650:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:659:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:414:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:141:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:41:10 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:150:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:147:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:169:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:444:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:169:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:474:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:166:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:651:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:660:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:415:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:41:28 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'init_rtcc':
+../src/main.c:168:4: warning: implicit declaration of function 'EnableCaches' [-Wimplicit-function-declaration]
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:443:6: warning: conflicting types for 'EnableCaches'
+ void EnableCaches() {
+      ^~~~~~~~~~~~
+../src/main.c:168:4: note: previous implicit declaration of 'EnableCaches' was here
+    EnableCaches();
+    ^~~~~~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:473:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:650:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:659:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:414:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:41:55 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:471:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:648:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:657:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:412:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:42:21 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:453:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:630:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:639:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:394:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:42:28 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:448:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:625:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:634:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:389:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:42:34 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:431:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:608:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:617:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:372:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:42:40 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:426:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:603:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:612:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:367:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:42:51 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:431:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:608:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:617:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:372:6: warning: 'BTN_Intr_Handler' defined but not used [-Wunused-function]
+ void BTN_Intr_Handler(void *InstancePtr)
+      ^~~~~~~~~~~~~~~~
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:43:29 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:149:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:146:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:316:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:165:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:493:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:502:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:142:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:43:38 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:255:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:252:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:422:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:271:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:599:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:608:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:248:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:43:47 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'IncrementTime':
+../src/main.c:187:11: warning: implicit declaration of function 'bcd2int' [-Wimplicit-function-declaration]
+    temp = bcd2int(result.second) + delta_seconds;
+           ^~~~~~~
+../src/main.c:188:20: warning: implicit declaration of function 'int2bcd' [-Wimplicit-function-declaration]
+    result.second = int2bcd(temp % 60);          // Convert seconds
+                    ^~~~~~~
+../src/main.c: At top level:
+../src/main.c:202:4: error: conflicting types for 'bcd2int'
+ u8 bcd2int(u8 data) {
+    ^~~~~~~
+../src/main.c:187:11: note: previous implicit declaration of 'bcd2int' was here
+    temp = bcd2int(result.second) + delta_seconds;
+           ^~~~~~~
+../src/main.c:216:4: error: conflicting types for 'int2bcd'
+ u8 int2bcd(u8 data) {
+    ^~~~~~~
+../src/main.c:188:20: note: previous implicit declaration of 'int2bcd' was here
+    result.second = int2bcd(temp % 60);          // Convert seconds
+                    ^~~~~~~
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:245:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:242:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:412:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:261:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:589:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:598:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:238:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:44:29 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:248:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:245:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:415:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:264:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:592:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:601:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:241:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:46:01 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:248:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:245:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:415:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:264:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:422:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:582:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:591:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:241:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:46:58 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'write_string':
+../src/main.c:78:7: error: 'irow' undeclared (first use in this function)
+  for (irow = 0; irow < OledRowMax; irow++) {
+       ^~~~
+../src/main.c:78:7: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:47:02 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'write_string':
+../src/main.c:78:7: error: 'irow' undeclared (first use in this function)
+  for (irow = 0; irow < OledRowMax; irow++) {
+       ^~~~
+../src/main.c:78:7: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:269:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:266:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:436:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:285:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:443:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:585:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:594:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:262:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:47:10 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:48:20 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:48:52 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'write_string':
+../src/main.c:82:26: warning: passing argument 2 of 'OLED_PutString' from incompatible pointer type [-Wincompatible-pointer-types]
+    OLED_PutString(&oled, &first);
+                          ^
+In file included from ../src/main.c:58:0:
+../../thermostat_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'char **'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:84:26: warning: passing argument 2 of 'OLED_PutString' from incompatible pointer type [-Wincompatible-pointer-types]
+    OLED_PutString(&oled, &second);
+                          ^
+In file included from ../src/main.c:58:0:
+../../thermostat_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'char **'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:86:26: warning: passing argument 2 of 'OLED_PutString' from incompatible pointer type [-Wincompatible-pointer-types]
+    OLED_PutString(&oled, &third);
+                          ^
+In file included from ../src/main.c:58:0:
+../../thermostat_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'char **'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:49:05 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:77:19: error: unknown type name 'String'; did you mean 'stdin'?
+ void write_string(String first, char * second, char * third) {
+                   ^~~~~~
+                   stdin
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:49:11 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'write_string':
+../src/main.c:84:26: warning: passing argument 2 of 'OLED_PutString' from incompatible pointer type [-Wincompatible-pointer-types]
+    OLED_PutString(&oled, &second);
+                          ^
+In file included from ../src/main.c:58:0:
+../../thermostat_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'char **'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+../src/main.c:86:26: warning: passing argument 2 of 'OLED_PutString' from incompatible pointer type [-Wincompatible-pointer-types]
+    OLED_PutString(&oled, &third);
+                          ^
+In file included from ../src/main.c:58:0:
+../../thermostat_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'char **'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:49:14 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'write_string':
+../src/main.c:86:26: warning: passing argument 2 of 'OLED_PutString' from incompatible pointer type [-Wincompatible-pointer-types]
+    OLED_PutString(&oled, &third);
+                          ^
+In file included from ../src/main.c:58:0:
+../../thermostat_bsp/ps7_cortexa9_0/include/PmodOLED.h:165:6: note: expected 'char *' but argument is of type 'char **'
+ void OLED_PutString    (PmodOLED *InstancePtr, char *sz);
+      ^~~~~~~~~~~~~~
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:49:15 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:270:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:267:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:437:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:286:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:444:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:586:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:595:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:263:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:49:40 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:273:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:270:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:440:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:289:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:447:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c: In function 'main':
+../src/main.c:589:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:598:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:266:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:50:12 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:273:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:270:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:440:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:289:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:447:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:447:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:447:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:557:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:566:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:266:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:50:23 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:273:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:270:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:440:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:289:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:447:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:447:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:447:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:557:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:566:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:266:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:51:06 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'clear_oled':
+../src/main.c:98:10: error: empty character constant
+  int irow''
+          ^~
+../src/main.c:98:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '\x0'
+../src/main.c:98:10: warning: statement with no effect [-Wunused-value]
+../src/main.c:100:2: error: expected ';' before 'for'
+  for (irow = OledRowMax - 1; irow >= 0; irow--) {
+  ^~~
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:287:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:284:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:454:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:303:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:461:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:461:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:461:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:571:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:580:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:280:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:51:07 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:287:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:284:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:454:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:303:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:461:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:461:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:461:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:571:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:580:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:280:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:51:38 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:287:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:284:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:454:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:303:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:461:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:461:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:461:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:570:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:579:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:280:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:51:49 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:287:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:284:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:454:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:303:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:463:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:461:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:461:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:461:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:560:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:569:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:280:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:54:18 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:287:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:284:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:454:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:303:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:463:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:461:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:461:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:461:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:560:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:569:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:280:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:55:00 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:287:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:284:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:454:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:303:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:483:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:482:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:481:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:463:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:461:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:461:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:461:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:525:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:534:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:280:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:55:42 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:268:2: error: 'temp' undeclared (first use in this function); did you mean 'bcmp'?
+  temp  = TMP3_getTemp(&temp_sensor);
+  ^~~~
+  bcmp
+../src/main.c:268:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:269:2: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+  temp2 = TMP3_CtoF(temp);
+  ^~~~~
+  temp
+../src/main.c:270:2: error: 'temp3' undeclared (first use in this function); did you mean 'temp2'?
+  temp3 = TMP3_FtoC(temp2);
+  ^~~~~
+  temp2
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:308:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:305:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:475:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:324:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:504:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:503:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:502:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:484:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:482:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:482:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:482:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:546:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:555:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/main.c: In function 'get_temp':
+../src/main.c:288:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:301:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:55:45 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:268:2: error: 'temp' undeclared (first use in this function); did you mean 'bcmp'?
+  temp  = TMP3_getTemp(&temp_sensor);
+  ^~~~
+  bcmp
+../src/main.c:268:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:269:2: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+  temp2 = TMP3_CtoF(temp);
+  ^~~~~
+  temp
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:307:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:304:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:474:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:323:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:503:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:502:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:501:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:483:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:481:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:481:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:481:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:545:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:554:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/main.c: In function 'get_temp':
+../src/main.c:287:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:300:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:55:58 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:269:2: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+  temp2 = TMP3_CtoF(temp);
+  ^~~~~
+  temp
+../src/main.c:269:2: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:307:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:304:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:474:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:323:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:503:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:502:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:501:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:483:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:481:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:481:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:481:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:545:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:554:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/main.c: In function 'get_temp':
+../src/main.c:287:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+At top level:
+../src/main.c:300:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:56:06 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:269:2: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+  temp2 = TMP3_CtoF(temp);
+  ^~~~~
+  temp
+../src/main.c:269:2: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:307:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:304:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:474:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:323:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:503:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:502:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:501:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:483:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:481:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:481:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:481:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:545:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:554:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:300:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:56:13 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:269:2: error: 'temp_current' undeclared (first use in this function)
+  temp_current = TMP3_CtoF(temp);
+  ^~~~~~~~~~~~
+../src/main.c:269:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:275:6: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+  if (temp2 < 0) {
+      ^~~~~
+      temp
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:307:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:304:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:474:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:323:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:503:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:502:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:501:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:483:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:481:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:481:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:481:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:545:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:554:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+At top level:
+../src/main.c:300:12: warning: 'temp_current' defined but not used [-Wunused-variable]
+ static int temp_current;
+            ^~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:56:51 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:284:6: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+  if (temp2 < 0) {
+      ^~~~~
+      temp
+../src/main.c:284:6: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:311:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:308:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:478:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:327:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:507:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:506:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:505:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:487:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:485:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:485:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:485:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:549:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:558:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:57:11 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:286:6: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+  if (temp2 < 0) {
+      ^~~~~
+      temp
+../src/main.c:286:6: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:313:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:310:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:480:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:329:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:509:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:508:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:507:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:489:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:487:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:487:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:487:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:551:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:560:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:57:22 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'get_temp':
+../src/main.c:287:24: error: 'temp2' undeclared (first use in this function); did you mean 'temp'?
+   temp2_round = (int) (temp2 * 1000 - 5) / 10;
+                        ^~~~~
+                        temp
+../src/main.c:287:24: note: each undeclared identifier is reported only once for each function it appears in
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:313:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:310:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:480:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:329:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:509:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:508:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:507:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:489:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:487:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:487:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:487:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:551:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:560:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:57:30 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:313:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:310:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:480:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:329:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:509:11: warning: unused variable 'temp3' [-Wunused-variable]
+    double temp3 = 0.0;
+           ^~~~~
+../src/main.c:508:11: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp2 = 0.0;
+           ^~~~~
+../src/main.c:507:11: warning: unused variable 'temp' [-Wunused-variable]
+    double temp  = 0.0;
+           ^~~~
+../src/main.c:489:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:487:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:487:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:487:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:551:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:560:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:57:50 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:313:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:310:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:480:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:329:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:489:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:487:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:487:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:487:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:542:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:551:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:57:57 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:313:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:310:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:480:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:329:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:489:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:487:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:487:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:487:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:542:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:551:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:58:07 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:313:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:310:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:480:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:329:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:489:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:487:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:487:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:487:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:542:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:551:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+11:59:36 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:482:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:355:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:544:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:553:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+11:59:57 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:482:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:355:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:546:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:555:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+12:00:16 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:482:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:355:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c:484:4: warning: implicit declaration of function 'init_ble'; did you mean 'init_oled'? [-Wimplicit-function-declaration]
+    init_ble();
+    ^~~~~~~~
+    init_oled
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:546:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:555:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+12:00:19 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:482:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:355:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c:484:4: warning: implicit declaration of function 'init_ble'; did you mean 'init_bt2'? [-Wimplicit-function-declaration]
+    init_ble();
+    ^~~~~~~~
+    init_bt2
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:546:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:555:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+12:00:30 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:483:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:356:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c:485:4: warning: implicit declaration of function 'init_ble'; did you mean 'init_bt2'? [-Wimplicit-function-declaration]
+    init_ble();
+    ^~~~~~~~
+    init_bt2
+../src/main.c: In function 'RunThermostat':
+../src/main.c:492:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:490:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:490:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:490:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:547:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:556:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+12:00:32 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:482:4: error: too few arguments to function 'init_rtcc'
+    init_rtcc();
+    ^~~~~~~~~
+../src/main.c:355:6: note: declared here
+ void init_rtcc(u8 mode) {
+      ^~~~~~~~~
+../src/main.c:484:4: warning: implicit declaration of function 'init_ble'; did you mean 'init_bt2'? [-Wimplicit-function-declaration]
+    init_ble();
+    ^~~~~~~~
+    init_bt2
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:546:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:555:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+12:02:00 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'InitializeThermostat':
+../src/main.c:484:4: warning: implicit declaration of function 'init_ble'; did you mean 'init_bt2'? [-Wimplicit-function-declaration]
+    init_ble();
+    ^~~~~~~~
+    init_bt2
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:546:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:555:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermostat.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermostat_bsp/ps7_cortexa9_0/lib -o "thermostat.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `InitializeThermostat':
+/home/user/Documents/embedded_systems_project/thermostat/thermostat.sdk/thermostat/Debug/../src/main.c:484: undefined reference to `init_ble'
+./src/main.o: In function `main':
+/home/user/Documents/embedded_systems_project/thermostat/thermostat.sdk/thermostat/Debug/../src/main.c:546: undefined reference to `init_platform'
+/home/user/Documents/embedded_systems_project/thermostat/thermostat.sdk/thermostat/Debug/../src/main.c:555: undefined reference to `cleanup_platform'
+collect2: error: ld returned 1 exit status
+makefile:39: recipe for target 'thermostat.elf' failed
+make: *** [thermostat.elf] Error 1
+12:02:06 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+../src/main.c: In function 'main':
+../src/main.c:546:5: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+     init_platform();
+     ^~~~~~~~~~~~~
+../src/main.c:555:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermostat.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermostat_bsp/ps7_cortexa9_0/lib -o "thermostat.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+/home/user/Documents/embedded_systems_project/thermostat/thermostat.sdk/thermostat/Debug/../src/main.c:546: undefined reference to `init_platform'
+/home/user/Documents/embedded_systems_project/thermostat/thermostat.sdk/thermostat/Debug/../src/main.c:555: undefined reference to `cleanup_platform'
+collect2: error: ld returned 1 exit status
+makefile:39: recipe for target 'thermostat.elf' failed
+make: *** [thermostat.elf] Error 1
+12:02:23 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:491:9: warning: unused variable 'c' [-Wunused-variable]
+    char c;
+         ^
+../src/main.c:489:18: warning: unused variable 'i' [-Wunused-variable]
+    int irow, ib, i;
+                  ^
+../src/main.c:489:14: warning: unused variable 'ib' [-Wunused-variable]
+    int irow, ib, i;
+              ^~
+../src/main.c:489:8: warning: unused variable 'irow' [-Wunused-variable]
+    int irow, ib, i;
+        ^~~~
+Finished building: ../src/main.c
+ 
+Building target: thermostat.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermostat_bsp/ps7_cortexa9_0/lib -o "thermostat.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermostat.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermostat.elf  |tee "thermostat.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46420	   1256	  23848	  71524	  11764	thermostat.elf
+Finished building: thermostat.elf.size
+ 
+12:04:02 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermostat.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermostat_bsp/ps7_cortexa9_0/lib -o "thermostat.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermostat.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermostat.elf  |tee "thermostat.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46420	   1256	  23848	  71524	  11764	thermostat.elf
+Finished building: thermostat.elf.size
+ 
+12:04:04 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+12:04:37 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../../thermostat_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:51:
+../src/main.c: In function 'init_btn':
+../../thermostat_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:339:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:336:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermostat.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermostat_bsp/ps7_cortexa9_0/lib -o "thermostat.elf"  ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermostat.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermostat.elf  |tee "thermostat.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  46420	   1256	  23848	  71524	  11764	thermostat.elf
+Finished building: thermostat.elf.size
+ 
+12:06:37 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:55:10: fatal error: xuartlite_l.h: No such file or directory
+ #include "xuartlite_l.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+12:06:42 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:55:10: fatal error: xuartlite_l.h: No such file or directory
+ #include "xuartlite_l.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+12:06:54 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:55:10: fatal error: xuartlite_l.h: No such file or directory
+ #include "xuartlite_l.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+12:07:15 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:55:10: fatal error: xuartlite_l.h: No such file or directory
+ #include "xuartlite_l.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
+12:07:28 **** Auto Build of configuration Debug for project thermostat ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermostat_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:55:10: fatal error: xuartlite_l.h: No such file or directory
+ #include "xuartlite_l.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/main.o] Error 1
+src/subdir.mk:21: recipe for target 'src/main.o' failed
