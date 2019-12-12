@@ -588,7 +588,7 @@ proc create_root_design { parentCell } {
   # Create instance: xlconcat_0, and set properties
   set xlconcat_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlconcat:2.1 xlconcat_0 ]
   set_property -dict [ list \
-   CONFIG.NUM_PORTS {3} \
+   CONFIG.NUM_PORTS {2} \
  ] $xlconcat_0
 
   # Create interface connections
@@ -609,7 +609,6 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net ps7_0_axi_periph_M06_AXI [get_bd_intf_pins PmodBT2_0/AXI_LITE_GPIO] [get_bd_intf_pins ps7_0_axi_periph/M06_AXI]
 
   # Create port connections
-  connect_bd_net -net PmodBT2_0_BT2_uart_interrupt [get_bd_pins PmodBT2_0/BT2_uart_interrupt] [get_bd_pins xlconcat_0/In2]
   connect_bd_net -net PmodRTCC_0_I2C_Interrupt [get_bd_pins PmodRTCC_0/I2C_Interrupt] [get_bd_pins xlconcat_0/In1]
   connect_bd_net -net PmodTMP3_0_I2C_Interrupt [get_bd_pins PmodTMP3_0/I2C_Interrupt] [get_bd_pins xlconcat_0/In0]
   connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins PmodBT2_0/s_axi_aclk] [get_bd_pins PmodOLED_0/s_axi_aclk] [get_bd_pins PmodRTCC_0/s_axi_aclk] [get_bd_pins PmodTMP3_0/s_axi_aclk] [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/M02_ACLK] [get_bd_pins ps7_0_axi_periph/M03_ACLK] [get_bd_pins ps7_0_axi_periph/M04_ACLK] [get_bd_pins ps7_0_axi_periph/M05_ACLK] [get_bd_pins ps7_0_axi_periph/M06_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_100M/slowest_sync_clk]

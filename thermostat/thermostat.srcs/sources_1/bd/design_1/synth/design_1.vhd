@@ -1,8 +1,8 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
---Date        : Tue Dec 10 15:07:19 2019
---Host        : ece22 running 64-bit Ubuntu 16.04.5 LTS
+--Date        : Thu Dec 12 10:10:02 2019
+--Host        : ece17 running 64-bit Ubuntu 16.04.5 LTS
 --Command     : generate_target design_1.bd
 --Design      : design_1
 --Purpose     : IP block netlist
@@ -2431,7 +2431,7 @@ architecture STRUCTURE of design_1 is
     M_AXI_GP0_BRESP : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M_AXI_GP0_RRESP : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M_AXI_GP0_RDATA : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    IRQ_F2P : in STD_LOGIC_VECTOR ( 2 downto 0 );
+    IRQ_F2P : in STD_LOGIC_VECTOR ( 1 downto 0 );
     FCLK_CLK0 : out STD_LOGIC;
     FCLK_RESET0_N : out STD_LOGIC;
     MIO : inout STD_LOGIC_VECTOR ( 53 downto 0 );
@@ -2659,8 +2659,7 @@ architecture STRUCTURE of design_1 is
   port (
     In0 : in STD_LOGIC_VECTOR ( 0 to 0 );
     In1 : in STD_LOGIC_VECTOR ( 0 to 0 );
-    In2 : in STD_LOGIC_VECTOR ( 0 to 0 );
-    dout : out STD_LOGIC_VECTOR ( 2 downto 0 )
+    dout : out STD_LOGIC_VECTOR ( 1 downto 0 )
   );
   end component design_1_xlconcat_0_0;
   component design_1_PmodBT2_0_0 is
@@ -2728,7 +2727,6 @@ architecture STRUCTURE of design_1 is
     s_axi_aresetn : in STD_LOGIC
   );
   end component design_1_PmodBT2_0_0;
-  signal PmodBT2_0_BT2_uart_interrupt : STD_LOGIC;
   signal PmodBT2_0_Pmod_out_PIN10_I : STD_LOGIC;
   signal PmodBT2_0_Pmod_out_PIN10_O : STD_LOGIC;
   signal PmodBT2_0_Pmod_out_PIN10_T : STD_LOGIC;
@@ -3010,7 +3008,8 @@ architecture STRUCTURE of design_1 is
   signal ps7_0_axi_periph_M06_AXI_WVALID : STD_LOGIC;
   signal rst_ps7_0_100M_interconnect_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_ps7_0_100M_peripheral_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
-  signal xlconcat_0_dout : STD_LOGIC_VECTOR ( 2 downto 0 );
+  signal xlconcat_0_dout : STD_LOGIC_VECTOR ( 1 downto 0 );
+  signal NLW_PmodBT2_0_BT2_uart_interrupt_UNCONNECTED : STD_LOGIC;
   signal NLW_processing_system7_0_ENET0_MDIO_MDC_UNCONNECTED : STD_LOGIC;
   signal NLW_processing_system7_0_ENET0_MDIO_O_UNCONNECTED : STD_LOGIC;
   signal NLW_processing_system7_0_ENET0_MDIO_T_UNCONNECTED : STD_LOGIC;
@@ -3278,7 +3277,7 @@ PmodBT2_0: component design_1_PmodBT2_0_0
       AXI_LITE_UART_wready => ps7_0_axi_periph_M05_AXI_WREADY,
       AXI_LITE_UART_wstrb(3 downto 0) => ps7_0_axi_periph_M05_AXI_WSTRB(3 downto 0),
       AXI_LITE_UART_wvalid => ps7_0_axi_periph_M05_AXI_WVALID,
-      BT2_uart_interrupt => PmodBT2_0_BT2_uart_interrupt,
+      BT2_uart_interrupt => NLW_PmodBT2_0_BT2_uart_interrupt_UNCONNECTED,
       Pmod_out_pin10_i => PmodBT2_0_Pmod_out_PIN10_I,
       Pmod_out_pin10_o => PmodBT2_0_Pmod_out_PIN10_O,
       Pmod_out_pin10_t => PmodBT2_0_Pmod_out_PIN10_T,
@@ -3511,7 +3510,7 @@ processing_system7_0: component design_1_processing_system7_0_0
       ENET0_MDIO_T => NLW_processing_system7_0_ENET0_MDIO_T_UNCONNECTED,
       FCLK_CLK0 => processing_system7_0_FCLK_CLK0,
       FCLK_RESET0_N => processing_system7_0_FCLK_RESET0_N,
-      IRQ_F2P(2 downto 0) => xlconcat_0_dout(2 downto 0),
+      IRQ_F2P(1 downto 0) => xlconcat_0_dout(1 downto 0),
       MIO(53 downto 0) => FIXED_IO_mio(53 downto 0),
       M_AXI_GP0_ACLK => processing_system7_0_FCLK_CLK0,
       M_AXI_GP0_ARADDR(31 downto 0) => processing_system7_0_M_AXI_GP0_ARADDR(31 downto 0),
@@ -3758,7 +3757,6 @@ xlconcat_0: component design_1_xlconcat_0_0
      port map (
       In0(0) => PmodTMP3_0_I2C_Interrupt,
       In1(0) => PmodRTCC_0_I2C_Interrupt,
-      In2(0) => PmodBT2_0_BT2_uart_interrupt,
-      dout(2 downto 0) => xlconcat_0_dout(2 downto 0)
+      dout(1 downto 0) => xlconcat_0_dout(1 downto 0)
     );
 end STRUCTURE;

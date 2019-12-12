@@ -22892,3 +22892,3358 @@ make pre-build main-build
 a9-linaro-pre-build-step
  
 make: Nothing to be done for 'main-build'.
+10:17:21 **** Auto Build of project thermo_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodOLED...
+OledDriver.c: In function 'OLED_Update':
+OledDriver.c:532:14: warning: unused variable 'icol' [-Wunused-variable]
+     int      icol;
+              ^~~~
+OledGrph.c: In function 'OLED_GetStdPattern':
+OledGrph.c:196:23: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     return rgbFillPat + 8*ipat;
+            ~~~~~~~~~~~^~~~~~~~
+OledGrph.c: In function 'OLED_FillRect':
+OledGrph.c:506:9: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8  bTmp;
+         ^~~~
+OledGrph.c: In function 'OLED_GetBmp':
+OledGrph.c:612:11: warning: variable 'bTmp' set but not used [-Wunused-but-set-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c: In function 'OLED_PutBmp':
+OledGrph.c:713:11: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c:706:11: warning: unused variable 'bDsp' [-Wunused-variable]
+     u8    bDsp;
+           ^~~~
+OledGrph.c: In function 'OLED_DrawChar':
+OledGrph.c:812:11: warning: unused variable 'ib' [-Wunused-variable]
+     int   ib;
+           ^~
+OledGrph.c:811:11: warning: variable 'pbBmp' set but not used [-Wunused-but-set-variable]
+     u8   *pbBmp;
+           ^~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodTMP3...
+In file included from xiic.h:324:0,
+                 from PmodTMP3.h:29,
+                 from PmodTMP3.c:26:
+PmodTMP3.c: In function 'TMP3_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodTMP3.c:115:4: note: in expansion of macro 'XIic_IntrGlobalDisable'
+    XIic_IntrGlobalDisable(IicInstancePtr);
+    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodTMP3.h:29,
+                 from PmodTMP3.c:26:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodBT2...
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodRTCC...
+In file included from xiic.h:324:0,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+PmodRTCC.c: In function 'RTCC_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodRTCC.c:97:4: note: in expansion of macro 'XIic_IntrGlobalDisable'
+    XIic_IntrGlobalDisable(IicInstancePtr);
+    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+10:17:36 **** Auto Build of project thermo_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodOLED_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodOLED...
+OledDriver.c: In function 'OLED_Update':
+OledDriver.c:532:14: warning: unused variable 'icol' [-Wunused-variable]
+     int      icol;
+              ^~~~
+OledGrph.c: In function 'OLED_GetStdPattern':
+OledGrph.c:196:23: warning: return discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     return rgbFillPat + 8*ipat;
+            ~~~~~~~~~~~^~~~~~~~
+OledGrph.c: In function 'OLED_FillRect':
+OledGrph.c:506:9: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8  bTmp;
+         ^~~~
+OledGrph.c: In function 'OLED_GetBmp':
+OledGrph.c:612:11: warning: variable 'bTmp' set but not used [-Wunused-but-set-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c: In function 'OLED_PutBmp':
+OledGrph.c:713:11: warning: unused variable 'bTmp' [-Wunused-variable]
+     u8    bTmp;
+           ^~~~
+OledGrph.c:706:11: warning: unused variable 'bDsp' [-Wunused-variable]
+     u8    bDsp;
+           ^~~~
+OledGrph.c: In function 'OLED_DrawChar':
+OledGrph.c:812:11: warning: unused variable 'ib' [-Wunused-variable]
+     int   ib;
+           ^~
+OledGrph.c:811:11: warning: variable 'pbBmp' set but not used [-Wunused-but-set-variable]
+     u8   *pbBmp;
+           ^~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodTMP3_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodTMP3...
+In file included from xiic.h:324:0,
+                 from PmodTMP3.h:29,
+                 from PmodTMP3.c:26:
+PmodTMP3.c: In function 'TMP3_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodTMP3.c:115:4: note: in expansion of macro 'XIic_IntrGlobalDisable'
+    XIic_IntrGlobalDisable(IicInstancePtr);
+    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodTMP3.h:29,
+                 from PmodTMP3.c:26:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodBT2_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodBT2...
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src
+make -C ps7_cortexa9_0/libsrc/PmodRTCC_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling PmodRTCC...
+In file included from xiic.h:324:0,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+PmodRTCC.c: In function 'RTCC_IICInit':
+xiic_l.h:299:13: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+  XIic_Out32((BaseAddress) + (RegOffset), (RegisterValue))
+             ^
+xiic_l.h:316:2: note: in expansion of macro 'XIic_WriteReg'
+  XIic_WriteReg((BaseAddress), XIIC_DGIER_OFFSET, 0)
+  ^~~~~~~~~~~~~
+PmodRTCC.c:97:4: note: in expansion of macro 'XIic_IntrGlobalDisable'
+    XIic_IntrGlobalDisable(IicInstancePtr);
+    ^~~~~~~~~~~~~~~~~~~~~~
+In file included from xiic_l.h:97:0,
+                 from xiic.h:324,
+                 from PmodRTCC.h:30,
+                 from PmodRTCC.c:25:
+../../../include/xil_io.h:223:20: note: expected 'UINTPTR {aka unsigned int}' but argument is of type 'XIic * {aka struct <anonymous> *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+10:17:46 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:47: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+                                               ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:363:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:360:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:43: warning: '%.2f' directive output truncated writing between 4 and 313 bytes into a region of size 3 [-Wformat-truncation=]
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+                                           ^~~~
+../src/main.c:74:6: note: 'snprintf' output between 15 and 324 bytes into a destination of size 13
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+      ^
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93392	   2704	  24896	 120992	  1d8a0	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:18:24 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:47: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+                                               ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:43: warning: '%.2f' directive output truncated writing between 4 and 313 bytes into a region of size 3 [-Wformat-truncation=]
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+                                           ^~~~
+../src/main.c:74:6: note: 'snprintf' output between 15 and 324 bytes into a destination of size 13
+  int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+      ^
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93328	   2704	  24896	 120928	  1d860	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:18:36 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 13, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 13, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: 'snprintf' output truncated before the last format character [-Wformat-truncation=]
+  int j = snprintf(buffer0, 13, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: note: 'snprintf' output between 14 and 323 bytes into a destination of size 13
+  int j = snprintf(buffer0, 13, "Temp cur:%.2f\0", num);
+      ^
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93328	   2704	  24896	 120928	  1d860	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:18:39 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93328	   2704	  24896	 120928	  1d860	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:18:52 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93328	   2704	  24896	 120928	  1d860	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:19:08 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:19:23 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:19:38 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93328	   2704	  24896	 120928	  1d860	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:19:51 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93328	   2704	  24896	 120928	  1d860	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:20:36 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:532:8: warning: unused variable 'off_char' [-Wunused-variable]
+   char off_char = (char) buf[1];
+        ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93328	   2704	  24896	 120928	  1d860	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:21:33 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:539:3: error: expected ';' before 'if'
+   if(buf[0] == 117) {
+   ^~
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+10:21:38 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:21:52 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:21:57 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:22:51 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:23:00 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:23:04 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:23:21 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:23:38 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:23:41 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:24:14 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:24:18 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:24:44 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93416	   2704	  24896	 121016	  1d8b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:24:46 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93400	   2704	  24896	 121000	  1d8a8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:24:54 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93376	   2704	  24896	 120976	  1d890	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:24:57 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93312	   2704	  24896	 120912	  1d850	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:25:19 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93320	   2704	  24896	 120920	  1d858	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:25:26 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93304	   2704	  24896	 120904	  1d848	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:25:29 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93264	   2704	  24896	 120864	  1d820	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:25:42 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:362:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:359:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93288	   2704	  24896	 120888	  1d838	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:25:58 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93248	   2704	  24896	 120848	  1d810	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:26:06 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:26:45 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93248	   2704	  24896	 120848	  1d810	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:26:48 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:27:45 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+../src/main.c: In function 'RunThermostat':
+../src/main.c:571:5: warning: 'main' is normally a non-static function [-Wmain]
+ int main()
+     ^~~~
+../src/main.c:581:1: error: expected declaration or statement at end of input
+ }
+ ^
+At top level:
+../src/main.c:571:5: warning: 'main' defined but not used [-Wunused-function]
+ int main()
+     ^~~~
+src/subdir.mk:24: recipe for target 'src/main.o' failed
+make: *** [src/main.o] Error 1
+10:27:55 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93376	   2704	  24896	 120976	  1d890	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:28:41 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93568	   2704	  24896	 121168	  1d950	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:29:11 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93568	   2704	  24896	 121168	  1d950	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:29:28 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93568	   2704	  24896	 121168	  1d950	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:29:41 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:29:51 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93568	   2704	  24896	 121168	  1d950	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:30:10 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93568	   2704	  24896	 121168	  1d950	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:30:30 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93696	   2704	  24896	 121296	  1d9d0	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:30:59 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93672	   2704	  24896	 121272	  1d9b8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:31:18 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93688	   2704	  24896	 121288	  1d9c8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:31:22 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93688	   2704	  24896	 121288	  1d9c8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:31:56 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93768	   2704	  24896	 121368	  1da18	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:32:27 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:33:32 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:361:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:358:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93768	   2704	  24896	 121368	  1da18	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:33:35 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:36:40 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:37:19 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93512	   2704	  24896	 121112	  1d918	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:37:30 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93512	   2704	  24896	 121112	  1d918	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:37:36 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:37:47 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93448	   2704	  24896	 121048	  1d8d8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:38:07 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93448	   2704	  24896	 121048	  1d8d8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:38:11 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:39:16 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93448	   2704	  24896	 121048	  1d8d8	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:39:28 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93512	   2704	  24896	 121112	  1d918	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:39:31 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:39:44 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93512	   2704	  24896	 121112	  1d918	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:39:47 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+10:40:44 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93512	   2704	  24896	 121112	  1d918	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:40:47 **** Auto Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../thermo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/main.c:11:0:
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../thermo_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+../src/main.c: In function 'print_temp_set':
+../src/main.c:69:44: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+                                            ^~
+../src/main.c:69:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer1, 12, "Temp set:%d\0", num);
+      ^
+../src/main.c: In function 'print_temp_curr':
+../src/main.c:74:46: warning: embedded '\0' in format [-Wformat-contains-nul]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+                                              ^~
+../src/main.c:74:6: warning: unused variable 'j' [-Wunused-variable]
+  int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
+      ^
+../src/main.c: In function 'write_string':
+../src/main.c:134:18: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * second = &buffer0;
+                  ^
+../src/main.c:135:17: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  char * third = &buffer1;
+                 ^
+In file included from ../../thermo_bsp/ps7_cortexa9_0/include/xgpio.h:135:0,
+                 from ../src/main.c:7:
+../src/main.c: In function 'init_btn':
+../../thermo_bsp/ps7_cortexa9_0/include/xstatus.h:65:41: warning: 'return' with a value, in function returning void
+ #define XST_FAILURE                     1L
+                                         ^
+../src/main.c:348:35: note: in expansion of macro 'XST_FAILURE'
+  if(status != XST_SUCCESS) return XST_FAILURE;
+                                   ^~~~~~~~~~~
+../src/main.c:345:6: note: declared here
+ void init_btn() {
+      ^~~~~~~~
+Finished building: ../src/main.c
+ 
+Building target: thermo.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../thermo_bsp/ps7_cortexa9_0/lib -o "thermo.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: thermo.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size thermo.elf  |tee "thermo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  93512	   2704	  24896	 121112	  1d918	thermo.elf
+Finished building: thermo.elf.size
+ 
+10:40:50 **** Incremental Build of configuration Debug for project thermo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

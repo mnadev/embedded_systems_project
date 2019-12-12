@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-// Date        : Tue Dec 10 13:57:19 2019
-// Host        : ece22 running 64-bit Ubuntu 16.04.5 LTS
-// Command     : write_verilog -force -mode funcsim
-//               /home/user/Documents/embedded_systems_project/thermostat/thermostat.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/design_1_xlconcat_0_0_sim_netlist.v
+// Date        : Tue Dec 10 11:21:54 2019
+// Host        : ece17 running 64-bit Ubuntu 16.04.5 LTS
+// Command     : write_verilog -force -mode funcsim -rename_top design_1_xlconcat_0_0 -prefix
+//               design_1_xlconcat_0_0_ design_1_xlconcat_0_0_sim_netlist.v
 // Design      : design_1_xlconcat_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,18 +17,14 @@
 module design_1_xlconcat_0_0
    (In0,
     In1,
-    In2,
     dout);
   input [0:0]In0;
   input [0:0]In1;
-  input [0:0]In2;
-  output [2:0]dout;
+  output [1:0]dout;
 
   wire [0:0]In0;
   wire [0:0]In1;
-  wire [0:0]In2;
 
-  assign dout[2] = In2;
   assign dout[1] = In1;
   assign dout[0] = In0;
 endmodule

@@ -53,7 +53,7 @@ void update_temp_preferences(int temp, int index) {
 
 
 void reset() {
-	xil_printf("Temp is reset");
+	xil_printf("Temp is reset\n");
 	temp_set = (int) temp_current;
 	int i;
 	for (i = 0; i < 24; i++) {
@@ -71,7 +71,7 @@ void print_temp_set(int num)
 
 void print_temp_curr(double num)
 {
-	int j = snprintf(buffer0, 13, "Temp curr:%.2f\0", num);
+	int j = snprintf(buffer0, 14, "Temp cur:%.2f\0", num);
 }
 
 /*
@@ -148,7 +148,7 @@ void write_string(char * first) {
 		 OLED_MoveTo(&oled, 0, irow);
 		 OLED_LineTo(&oled, 127, irow);
 		 OLED_Update(&oled);
-		 usleep(100000);
+		 usleep(1);
 	}
 }
 
@@ -315,25 +315,10 @@ void get_temp() {
 
 	double temp  = TMP3_getTemp(&temp_sensor);
 	temp_current = TMP3_CtoF(temp);
-	xil_printf("Temperature: %f in Fahrenheit 451\n\r", temp_current);
 
-	int temp2_round = 0;
-	int temp2_int   = 0;
-	int temp2_frac  = 0;
-	// Round to nearest hundredth, multiply by 100
-	if (temp_current < 0) {
-		temp2_round = (int) (temp_current * 1000 - 5) / 10;
-		temp2_frac  = -temp2_round % 100;
-	} else {
-		temp2_round = (int) (temp_current) / 10;
-		temp2_frac  = temp2_round % 100;
-	}
-	temp2_int = temp2_round / 100;
-
-	xil_printf("Temperature: %d.%d in Fahrenheit\n\r", temp2_int, temp2_frac);
+	xil_printf("Temperature: %.2f in Fahrenheit\n\r", temp_current);
 	print("\n\r");
 	sleep(1); // Delay
-	temp_current = 45.4;
 }
 
 /*
@@ -382,7 +367,7 @@ void init_rtcc(u8 mode) {
    if (!RTCC_checkVbat(&rtcc) || mode) {
 	  xil_printf("No VBAT\n");
 	  // Set the real time clock to Tuesday 2/6/18 12:24:36 PM
-	  //RTCC_stopClock(&rtcc);
+	  RTCC_stopClock(&rtcc);
 	  xil_printf("No VBAT\n");
 
 	  time.second = 0x36;
@@ -434,7 +419,6 @@ void init_rtcc(u8 mode) {
 
 void init_tmp3() {
    TMP3_begin(&temp_sensor, XPAR_PMODTMP3_0_AXI_LITE_IIC_BASEADDR, TMP3_ADDR);
-   xil_printf("Temp initialized");
    get_temp();
    temp_set = (int) temp_current;
 }
@@ -446,39 +430,39 @@ void init_bt2() {
 
 
 void InitializeThermostat() {
-   xil_printf("starting");
+	xil_printf("Initializing Thermostat\n");
 
    init_btn();
-   xil_printf("0");
+	xil_printf("Initialized Button\n");
 
    init_oled();
-   xil_printf("1");
+	xil_printf("Initialized OLED\n");
 
    init_tmp3();
    get_temp();
-   xil_printf("3");
+	xil_printf("Initialized TMP3\n");
 
    init_bt2();
-   xil_printf("4");
+	xil_printf("Initialized BT2\n");
 
    //init_rtcc(SET_RTCC);
-   xil_printf("2");
+	xil_printf("Initialized RTCC\n");
 
 }
 
 
 void RunThermostat() {
-   u8 *pat;
+	xil_printf("Starting Thermostat");
+	u8 *pat;
 
 
-   u8 buf[1];
-   u8 ret[2];
+   u8 buf[2];
+   u8 ret[3];
+   ret[2] = (u8) '\n';
 
    int n;
-   xil_printf("UART and SPI opened for PmodOLED Demo\n\r");
 
    while (1) {
-	xil_printf("entering loop\r\n");
 
 	// Choosing Fill pattern 0
 	pat = OLED_GetStdPattern(0);
@@ -492,6 +476,7 @@ void RunThermostat() {
 	sleep(0.2);
 
 	btn_getter();
+	get_temp();
 	/*
 	// Print current time
 	xil_printf("Current time is : ");
@@ -528,26 +513,55 @@ void RunThermostat() {
 
 	if (n != 0) {
 		xil_printf("Got data\n");
-		xil_printf("%u\n", buf[0]);
 
-		if(buf[0] == 117) {
-			xil_printf("Incrementing\n");
-			temp_set += 1;
+		char off_char = (char) buf[1];
+
+		int offset = off_char - '0';
+
+
+		if(buf[0] == (u8) 'u') {
+			xil_printf("Incrementing by %d\n", offset);
+			temp_set += offset;
+
+			ret[1] = temp_set%10 + 48;
+			ret[0] = (int) temp_set/10  + 48;
+
+
+			BT2_SendData(&bt2, ret, 3);
 		}
 
-		if(buf[0] == 100) {
-			xil_printf("Decrementing\n");
-			temp_set -= 1;
+		if(buf[0] == (u8) 'd') {
+			xil_printf("Decrementing by %d\n", offset);
+			temp_set -= offset;
+			ret[1] = temp_set%10 + 48;
+			ret[0] = (int) temp_set/10  + 48;
+
+
+			BT2_SendData(&bt2, ret, 3);
 		}
 
-		ret[1] = temp_set%10 + 48;
-		ret[0] = (int) temp_set/10  + 48;
+
+		if(buf[0] == (u8) 'q') {
+			ret[1] = temp_set%10 + 48;
+			ret[0] = (int) temp_set/10  + 48;
 
 
-		BT2_SendData(&bt2, ret, 2);
-		xil_printf("Darth Vader\n");
+			BT2_SendData(&bt2, ret, 3);
+		}
+
+
+		if(buf[0] == (u8) 'r') {
+			reset();
+			ret[1] = temp_set%10 + 48;
+			ret[0] = (int) temp_set/10  + 48;
+
+
+			BT2_SendData(&bt2, ret, 3);
+		}
 
 	}
+
+	sleep(1.2);
   }
 }
 
@@ -561,7 +575,6 @@ void CleanupThermostat() {
 
 int main()
 {
-	xil_printf("Hi");
     InitializeThermostat();
     RunThermostat();
     CleanupThermostat();

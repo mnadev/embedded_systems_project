@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Tue Dec 10 13:56:32 2019
-# Process ID: 28128
+# Start of session at: Thu Dec 12 10:10:19 2019
+# Process ID: 29859
 # Current directory: /home/user/Documents/embedded_systems_project/thermostat/thermostat.runs/design_1_processing_system7_0_0_synth_1
 # Command line: vivado -log design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
 # Log file: /home/user/Documents/embedded_systems_project/thermostat/thermostat.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
